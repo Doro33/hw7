@@ -1,0 +1,6 @@
+no
+
+When we compile an enum, the Java compiler does some magic to it:
+
+It turns the enum into a subclass of the abstract class java.lang.Enum
+It compiles the enum as a FINAL class
